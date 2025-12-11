@@ -6,11 +6,11 @@
     "require": {
         "laravel/framework": "^5.1|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
         "illuminate/support": "^5.1|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
-		"intervention/image": "^2.5",
-        "yajra/laravel-datatables-oracle": "^6.0 || ^7.0 || ^8.0 || ^9.11",
+        "intervention/image": "^2.5",
+        "yajra/laravel-datatables-oracle": "^6.0 || ^7.0 || ^8.0 || ^9.11 || ^10.0",
         "jenssegers/date": "^4.0",
         "mews/purifier": "^2.0|^3.2",
-        "doctrine/dbal": "^2.10"
+        "doctrine/dbal": "^2.10|^3.0"
     },
     "license": "MIT",
     "authors": [
@@ -24,11 +24,11 @@
             "PanicHD\\PanicHD\\": "src"
         }
     },
-	"extra": {
-		"laravel": {
-			"providers": [
-				"PanicHD\\PanicHD\\PanicHDServiceProvider"
-			]
-		}
-	}
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PanicHD\\PanicHD\\PanicHDServiceProvider"
+            ]
+        }
+    }
 }
